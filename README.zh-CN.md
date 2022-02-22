@@ -2,14 +2,13 @@
 
 [![license](https://img.shields.io/github/license/anncwb/vue-vben-admin.svg)](LICENSE)
 
-<h1>Vue vben admin</h1>
+<h1>和仁云物业管理系统</h1>
 </div>
 
-**中文** | [English](./README.md)
 
 ## 简介
 
-Vue Vben Admin 是一个免费开源的中后台模版。使用了最新的`vue3`,`vite2`,`TypeScript`等主流技术开发，开箱即用的中后台前端解决方案，也可用于学习参考。
+和仁云物业管理系统使用 Vue Vben Admin 一个免费开源的中后台模版。使用了最新的`vue3`,`vite2`,`TypeScript`等主流技术开发
 
 ## 特性
 
@@ -23,24 +22,9 @@ Vue Vben Admin 是一个免费开源的中后台模版。使用了最新的`vue3
 
 ## 预览
 
-- [vue-vben-admin](https://vvbin.cn/next/) - 完整版中文站点
-- [vue-vben-admin-gh-pages](https://anncwb.github.io/vue-vben-admin/) - 完整版 github 站点
-- [vben-admin-thin-next](https://vvbin.cn/thin/next/) - 简化版中文站点
-- [vben-admin-thin-gh-pages](https://anncwb.github.io/vben-admin-thin-next/) - 简化版 github 站点
 
 测试账号: vben/123456
 
-<p align="center">
-    <img alt="VbenAdmin Logo" width="100%" src="https://anncwb.github.io/anncwb/images/preview1.png">
-    <img alt="VbenAdmin Logo" width="100%" src="https://anncwb.github.io/anncwb/images/preview2.png">
-    <img alt="VbenAdmin Logo" width="100%" src="https://anncwb.github.io/anncwb/images/preview3.png">
-</p>
-
-### 使用 Gitpod
-
-在 Gitpod（适用于 GitHub 的免费在线开发环境）中打开项目，并立即开始编码.
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/anncwb/vue-vben-admin)
 
 ## 文档
 
@@ -62,13 +46,13 @@ Vue Vben Admin 是一个免费开源的中后台模版。使用了最新的`vue3
 - 获取项目代码
 
 ```bash
-git clone https://github.com/anncwb/vue-vben-admin.git
+git clone https://e.coding.net/huacheng_leiwei/herenyunwuyeguanlixitongvue3/front-wuye-vue3.git
 ```
 
 - 安装依赖
 
 ```bash
-cd vue-vben-admin
+cd front-wuye-vue3
 
 yarn install
 
@@ -90,22 +74,6 @@ yarn build
 
 [CHANGELOG](./CHANGELOG.zh_CN.md)
 
-## 项目地址
-
-- [vue-vben-admin](https://github.com/anncwb/vue-vben-admin) - 完整版
-- [vue-vben-admin-thin-next](https://github.com/anncwb/vben-admin-thin-next) - 简化版
-
-## 如何贡献
-
-非常欢迎你的加入！[提一个 Issue](https://github.com/anncwb/vue-vben-admin/issues/new/choose) 或者提交一个 Pull Request。
-
-**Pull Request:**
-
-1. Fork 代码!
-2. 创建自己的分支: `git checkout -b feat/xxxx`
-3. 提交你的修改: `git commit -am 'feat(function): add xxxxx'`
-4. 推送您的分支: `git push origin feat/xxxx`
-5. 提交`pull request`
 
 ## Git 贡献提交规范
 
@@ -137,7 +105,6 @@ yarn build
 
 ## 相关仓库
 
-如果这些插件对你有帮助，可以给一个 star 支持下
 
 - [vite-plugin-mock](https://github.com/anncwb/vite-plugin-mock) - 用于本地及开发环境数据 mock
 - [vite-plugin-html](https://github.com/anncwb/vite-plugin-html) - 用于 html 模版转换及压缩
@@ -146,30 +113,3 @@ yarn build
 - [vite-plugin-imagemin](https://github.com/anncwb/vite-plugin-imagemin) - 用于打包压缩图片资源
 - [vite-plugin-compression](https://github.com/anncwb/vite-plugin-compression) - 用于打包输出.gz|.brotil 文件
 - [vite-plugin-svg-icons](https://github.com/anncwb/vite-plugin-svg-icons) - 用于快速生成 svg 雪碧图
-
-## 后台整合示例
-
-- [lamp-cloud](https://github.com/zuihou/lamp-cloud) - 基于 SpringCloud Alibaba 的微服务中后台快速开发平台
-- [matecloud](https://github.com/matevip/matecloud) - MateCloud 微服务脚手架，基于 Spring Cloud 2020.0.3、SpringBoot 2.5.3 的全开源平台
-
-## 维护者
-
-[@Vben](https://github.com/anncwb)
-
-## 捐赠
-
-如果你觉得这个项目对你有帮助，你可以帮作者买一杯咖啡表示支持!
-
-![donate](https://anncwb.github.io/anncwb/images/sponsor.png)
-
-<a style="display: block;width: 100px;height: 50px;line-height: 50px; color: #fff;text-align: center; background: #408aed;border-radius: 4px;" href="https://www.paypal.com/paypalme/cvvben">Paypal Me</a>
-
-## 交流
-
-`Vue-vben-Admin` 是完全开源免费的项目，在帮助开发者更方便地进行中大型管理系统开发，同时也提供 QQ 交流群使用问题欢迎在群内提问。
-
-- QQ 群 `569291866`
-
-## License
-
-[MIT © Vben-2020](./LICENSE)
